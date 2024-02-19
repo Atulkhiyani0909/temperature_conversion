@@ -30,6 +30,8 @@ background: -moz-linear-gradient(90deg, hsla(195, 86%, 50%, 1) 0%, hsla(236, 93%
 background: -webkit-linear-gradient(90deg, hsla(195, 86%, 50%, 1) 0%, hsla(236, 93%, 65%, 1) 100%);
 
 filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#12B3EB", endColorstr="#5460F9", GradientType=1 );
+max-height: 100%;
+
   }
 
   h1 {
@@ -59,9 +61,20 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#12B3EB", en
   }
 
   @media (max-width: 576px) {
+      body{
+            background: linear-gradient(90deg, hsla(195, 86%, 50%, 1) 0%, hsla(236, 93%, 65%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(195, 86%, 50%, 1) 0%, hsla(236, 93%, 65%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(195, 86%, 50%, 1) 0%, hsla(236, 93%, 65%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#12B3EB", endColorstr="#5460F9", GradientType=1 );
+max-height: 100%;
+      }
       #main {
           margin: 20px auto;
           padding: 10px;
+          height: 100%;
       }
 
       h1 {

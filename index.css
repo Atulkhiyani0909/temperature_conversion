@@ -28,6 +28,9 @@ dialog {
     font-size: 18px;
     color: #333;
     margin-bottom: 20px;
+    padding: 30px;
+    text-align: center;
+    
   }
   
   /* Style the button inside the dialog */
